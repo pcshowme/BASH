@@ -5,7 +5,7 @@ cat FL1.txt | sed ':a;N;$!ba;s/ A\n/ [A] \n /g'| sed ':a;N;$!ba;s/ B\n/ [B] \n /
 C=0
 while read LINE     
 do
-  $C++
+  ((C++))
   if [[ $C -eq 1 ]]; then TITLE="$( cut -d '[' -f 1 <<< "$LINE" )"; echo "$TITLE"; fi
   echo -e $LINE | sed ':a;N;$!ba;s/ \[/ \n/1' >> FL3.txt
 done < FL2.txt
