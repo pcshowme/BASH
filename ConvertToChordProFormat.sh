@@ -3,5 +3,7 @@ cat FieryLove.txt | sed 's/ A / [A] /g'| sed 's/ Ab/ [Ab] /g'| sed 's/ A#/ [A#] 
 
 cat FL1.txt | sed ':a;N;$!ba;s/ A\n/ [A] \n /g'| sed ':a;N;$!ba;s/ B\n/ [B] \n /g'| sed ':a;N;$!ba;s/ C\n/ [C] \n /g' | sed ':a;N;$!ba;s/ D\n/ [D] \n /g'| sed ':a;N;$!ba;s/ E\n/ [E] \n /g'| sed ':a;N;$!ba;s/ F\n/ [F] \n /g'| sed ':a;N;$!ba;s/ G\n/ [G] \n /g'| sed 's/ – / [-] /g' | sed 's/ : / [:] /g' | sed 's/ :: / [::] /g'  > FL2.txt
 
-
-cat FL2.txt | sed ':a;N;$!ba;s/ \[/ \n/1'
+while read LINE     
+do          
+  echo -e $LINE | sed ':a;N;$!ba;s/ \[/ \n/1' >> FL3.txt
+done < FL2.txt
