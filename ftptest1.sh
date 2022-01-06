@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 
 ftp -inv ftp.pcshowme.com<<ENDFTP
@@ -9,7 +8,6 @@ lcd /root/Documents
 put ftptest1.sh
 bye
 ENDFTP
-=======
 #!/bin/bash
 
 ftp -inv ftp.pcshowme.com<<ENDFTP
@@ -20,4 +18,3 @@ lcd /root/Documents
 put ftptest1.sh
 bye
 ENDFTP
->>>>>>> origin/master

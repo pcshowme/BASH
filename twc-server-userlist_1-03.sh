@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 #
 # Linux information gathering; TWC Server/Userlist
@@ -70,7 +69,6 @@ echo "$A_NONSTRD_LEN of those are user accounts that have non-standard password 
 echo "$A_SYSTEM_LEN of those are system accounts that may have non-standard password change intervals other than 90 days."
 exit 0
 #--------------------------------------------------------------------
-=======
 #!/bin/bash
 #
 # Linux information gathering; TWC Server/Userlist
@@ -142,4 +140,3 @@ echo "$A_NONSTRD_LEN of those are user accounts that have non-standard password 
 echo "$A_SYSTEM_LEN of those are system accounts that may have non-standard password change intervals other than 90 days."
 exit 0
 #--------------------------------------------------------------------
->>>>>>> origin/master

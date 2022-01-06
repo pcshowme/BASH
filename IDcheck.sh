@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 # IDcheck.sh -- Created by Jim Bodden 12/09/2014 -- Modified on: 3/20/2015
 VERSION='IDcheck.sh--Version-1.29'
@@ -177,7 +176,6 @@ do
 done
 echo "Finished"
 exit 0
-=======
 #!/bin/bash
 # IDcheck.sh -- Created by Jim Bodden 12/09/2014 -- Modified on: 3/20/2015
 VERSION='IDcheck.sh--Version-1.29'
@@ -356,4 +354,3 @@ do
 done
 echo "Finished"
 exit 0
->>>>>>> origin/master

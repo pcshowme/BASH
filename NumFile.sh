@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 # NumFile.sh -- Created by Jim Bodden 3/3/2015 -- Modified on: 5/6/2015
 # Version 1.28
@@ -33,7 +32,6 @@ done < "$file"
 printf "%-30s %15i\n" "TOTAL  " $TOTAL |tee -a /tmp/NumFile.tmp
 sed 's/ \+ /,/g' /tmp/NumFile.tmp > /tmp/NumFile.csv
 exit 0
-=======
 #!/bin/bash
 # NumFile.sh -- Created by Jim Bodden 3/3/2015 -- Modified on: 5/6/2015
 # Version 1.28
@@ -68,4 +66,3 @@ done < "$file"
 printf "%-30s %15i\n" "TOTAL  " $TOTAL |tee -a /tmp/NumFile.tmp
 sed 's/ \+ /,/g' /tmp/NumFile.tmp > /tmp/NumFile.csv
 exit 0
->>>>>>> origin/master

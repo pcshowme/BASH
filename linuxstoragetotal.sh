@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 #
 # Linux Storage Billing Script for total space, shooting for simple, quick and accurate
@@ -428,7 +427,6 @@ if [[ $EXTSTORE = "YES" ]]; then echo "Storage Mapping | Size" |tee -a /tmp/LSTr
 2>/dev/null cat /tmp/ExtLinks2.lst-tmp |tee -a /tmp/LSTreport.lst-tmp
 
 exit 0
-=======
 #!/bin/bash
 #
 # Linux Storage Billing Script for total space, shooting for simple, quick and accurate
@@ -858,4 +856,3 @@ if [[ $EXTSTORE = "YES" ]]; then echo "Storage Mapping | Size" |tee -a /tmp/LSTr
 2>/dev/null cat /tmp/ExtLinks2.lst-tmp |tee -a /tmp/LSTreport.lst-tmp
 
 exit 0
->>>>>>> origin/master

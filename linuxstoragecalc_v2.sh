@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 #Linux Storage Billing Script
 #Matthew Millhouse 20120719
@@ -110,7 +109,6 @@ put `hostname`_`date +%F`
 bye
 ENDFTP
 exit 0
-=======
 #!/bin/bash
 #Linux Storage Billing Script
 #Matthew Millhouse 20120719
@@ -222,4 +220,3 @@ put `hostname`_`date +%F`
 bye
 ENDFTP
 exit 0
->>>>>>> origin/master

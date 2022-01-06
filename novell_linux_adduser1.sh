@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 
 # This is a Novell Linux group user creation script 
@@ -58,7 +57,6 @@ done
 
 exit 0
 
-=======
 #!/bin/bash
 
 # This is a Novell Linux group user creation script 
@@ -118,4 +116,3 @@ done
 
 exit 0
 
->>>>>>> origin/master

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 
 #/******************************************************************************
@@ -88,7 +87,6 @@ sed  'N;s/.*/&\n /' $FILENAME3 > $FILENAME4
 cat $FILENAME5 $FILENAME4 > $FILENAME6
 rm $FILENAME1 $FILENAME2 $FILENAME3 $FILENAME4 $FILENAME5
 exit
-=======
 #!/bin/bash
 
 #/******************************************************************************
@@ -178,4 +176,3 @@ sed  'N;s/.*/&\n /' $FILENAME3 > $FILENAME4
 cat $FILENAME5 $FILENAME4 > $FILENAME6
 rm $FILENAME1 $FILENAME2 $FILENAME3 $FILENAME4 $FILENAME5
 exit
->>>>>>> origin/master

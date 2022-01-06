@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 
 #/******************************************************************************
@@ -85,7 +84,6 @@ divline
 echo $VERSION 'Executed at;' `date` |tee -a $FILENAME1
 divline
 padding 	# Spacing added after content for readability
-=======
 #!/bin/bash
 
 #/******************************************************************************
@@ -172,4 +170,3 @@ divline
 echo $VERSION 'Executed at;' `date` |tee -a $FILENAME1
 divline
 padding 	# Spacing added after content for readability
->>>>>>> origin/master

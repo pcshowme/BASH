@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Bash script for Adding User Accounts
 
 #!/bin/bash
@@ -48,7 +47,6 @@ groupadd -g 38000 sotadmin #Agency admins
         fi
         done < agency_linux_list.txt
 exit 0
-=======
 #Bash script for Adding User Accounts
 
 #!/bin/bash
@@ -98,4 +96,3 @@ groupadd -g 38000 sotadmin #Agency admins
         fi
         done < agency_linux_list.txt
 exit 0
->>>>>>> origin/master

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 #
 #Linux Storage Billing Script for total allocated space
@@ -155,7 +154,6 @@ cat /tmp/luid.tmp |tee -a $FILENAME
 cat /tmp/blkid.tmp |tee -a $FILENAME
 
 exit
-=======
 #!/bin/bash
 #
 #Linux Storage Billing Script for total allocated space
@@ -312,4 +310,3 @@ cat /tmp/luid.tmp |tee -a $FILENAME
 cat /tmp/blkid.tmp |tee -a $FILENAME
 
 exit
->>>>>>> origin/master

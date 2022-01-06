@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 
 HOST=ftp.pcshowme.com  #This is the FTP servers host or IP address.
@@ -17,7 +16,6 @@ user $USER $PASS
 put test.txt
 
 exit
-=======
 #!/bin/bash
 
 HOST=ftp.pcshowme.com  #This is the FTP servers host or IP address.
@@ -36,4 +34,3 @@ user $USER $PASS
 put test.txt
 
 exit
->>>>>>> origin/master

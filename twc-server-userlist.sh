@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 #
 # Linux information gathering; TWC Server/Userlist
@@ -72,7 +71,6 @@ cat /$FILENAME2 | sort -t, -k4 -n | tee $FILENAME1
 
 exit 0
 #--------------------------------------------------------------------
-=======
 #!/bin/bash
 #
 # Linux information gathering; TWC Server/Userlist
@@ -146,4 +144,3 @@ cat /$FILENAME2 | sort -t, -k4 -n | tee $FILENAME1
 
 exit 0
 #--------------------------------------------------------------------
->>>>>>> origin/master

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 
 #/******************************************************************************
@@ -25,7 +24,6 @@ echo $OUTPUT | grep $TEST > null
 #                echo LUM is NOT running
                 rcnamcd restart
         fi
-=======
 #!/bin/bash
 
 #/******************************************************************************
@@ -52,4 +50,3 @@ echo $OUTPUT | grep $TEST > null
 #                echo LUM is NOT running
                 rcnamcd restart
         fi
->>>>>>> origin/master
