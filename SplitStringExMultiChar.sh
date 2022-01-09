@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #Define the string to split
-text="learnHTMLlearnPHPlearnMySQLlearnJavascript"
+text="gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7"
 
 #Define multi-character delimiter
-delimiter="learn"
+delimiter="gpgkey=file://"
 #Concatenate the delimiter with the main string
 string=$text$delimiter
 
